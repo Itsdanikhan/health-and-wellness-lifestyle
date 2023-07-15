@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <style>
+        .box-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .box {
+            width: 30%;
+            height: 200px;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        .big-box {
+            width: 100%;
+            height: 300px;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 2rem;
+        }
+    </style>
+    <title>Header</title>
+</head>
+<>
+    <main>
+        <header>
+            <div class="logo">
+                <a href="#"><img width="85" height="80" src="img/HWL-logo.jpeg" alt="hwl-logo" /></a>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="">Categories</a>
+                <a href="">Tools and Resoures</a>
+                <a href="About.html">About</a>
+                <a href="contact-us.html">Contact us</a>
+                <input id="search-bar" type="text" placeholder="Search here">
+            </nav>
+        </header>
+    </main>
+    <div class="box-container">
+        <div class="box" style="background-image: url(img/health\ news.jpg); background-size: cover;">
+            Health News
+        </div>
+        <div class="box" style="background-image: url(img/health\ products.jpg); background-size: cover;"> 
+            Health Products
+        </div>
+        <div class="box" style="background-image: url(img/diet\ and\ nutrition.jpeg); background-size: cover;"> 
+            Diet and Nutrition
+        </div>
+    </div>
+    <div class="big-box" style="background-image: url(img/medical\ expert\ board.jpg); background-size: cover;"> 
+        Medical Expert Board
+    </div>
+
+<footer>
+    <div class="f-email">
+      <label for="e-mail">Daily Health Tips To Your Inbox</label>
+        <div class="f-email-row">
+        <input type="email" placeholder="Enter Your Email" id="e-mail">
+        <button class="f-email-btn">Sign-Up</button> 
+        </div>
+    </div>
+      <div>
+          &copy;<span>2023</span>
+      <span> HWL. All rights reserved.</span>
+      </div>
+      
+      <div class="social-links">
+          <h4>Follow on Social media</h4>
+          <a href=""
+            ><img
+              width="40"
+              height="40"
+              src="img/facebook.png"
+              alt="facebook"
+          /></a>
+          <a href=""
+            ><img
+              width="40"
+              height="40"
+              src="img/twitter.png"
+              alt="twitter"
+          /></a>
+          <a href=""
+            ><img
+              width="40"
+              height="40"
+              src="img/instagram.png"
+              alt="Instagram"
+          /></a>
+          <a href=""
+            ><img
+              width="40"
+              height="40"
+              src="img/pinterest.jpeg"
+              alt="pinterest"
+          /></a>
+        </div>
+    </footer>
+</body>
+</html>
