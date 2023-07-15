@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f2f2f2;
+}
+
+.logo img {
+  width: 85px;
+  height: 80px;
+}
+
+nav a {
+  margin-right: 1rem;
+  color: #000;
+  text-decoration: none;
+}
+
+
+#search-bar {
+  padding: 7px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 7px;
+}
+
+/* Contact Heading Styles */
+.contact-heading {
+  width: 100%;
+  background-color: #1e42f5;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Main Section Styles */
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.primary-col img {
+  width: 112px;
+  height: 112px;
+}
+
+.hero-line {
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+  color: #333;
+  font-weight: 600;
+}
+
+.hero-para {
+  width: 80%;
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 1rem;
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Right Column Styles */
+.right-col form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-field {
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.btn-format {
+  color: #fff;
+  background-color: #010102;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 3.2rem;
+  width: fit-content;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-format:hover {
+  background-color: #1e42f5;
+}

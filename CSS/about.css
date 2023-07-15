@@ -1,0 +1,50 @@
+.about-heading {
+    width: 100%;
+    background-color: #1e42f5;
+    padding: 1.7rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+
+}
+.welcome-qoute{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 6rem;
+}
+.our-mission {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.healthy.lifestyle img {
+  width: 100%;
+  height: 300;
+}
+@media (max-width: 768px) {
+  .about-me {
+    flex-direction: column;
+  }
+
+  #about-img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 5rem;
+  }
+}
+
+.contact-btn {
+  margin-top: 0.6rem;
+}
